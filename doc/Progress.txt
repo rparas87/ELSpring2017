@@ -17,7 +17,7 @@ So far we have completed:
 4)Mounted the programs and database onto my raspberry pi(difficulty regarding privelages to edit files causing delay)
 
 To do:
-1)Create a remote admit site to display the database
+1)Create a remote admit site using flask to display the database
 
 	James was able to succesfully get the humidity and temperature sensor to work on the first day.  I unfortunately was not able to make it
 the class and missed the opportunity to see the differences between setting up the previous temperature sensor and the humidity sensor.  From there
