@@ -1,29 +1,10 @@
+James Earl
 Richard Paras
-Parter: James Earl
-Project: Scalable and robust infrastructure to create a building's heat and humidity profile
 
-	We are working having a raspberry pi read in the temperature and humidty from a sensor connected into
-the GPIO pins.  It will then store the information into an SQL database.  These two aspects of the project were
-simple as we have already accomplished this earlier this semester using a temperature sensor.  The process is
-very similar with some slight differences.  We have begun working on transferring the information from the database
-to a seperate raspberry pi using samba.  James' raspberry pi will gather information and mount that information onto
-my raspberry pi using Samba(James) and a Samba Client(Mine).  The information from the database received will update along with his 
-database.  The end goal will be to use flask to display the database on a public admin site.
+Our project is to collect temperature and humidity data to a database. That data will then be accessed by a remote device and made accessible to a web server located on another device.
 
-So far we have completed:
-1)Read the temperature and humidity
-2)Saved the information in an SQL database
-3)Created a python program which read the information into the database periodically
-4)Mounted the programs and database onto my raspberry pi(difficulty regarding privelages to edit files causing delay)
+So far, we have configured and verified operation of the sensor. We have also made the database and started logging data to it. We have made the database accessible to the remote device. We have began configuring the remote Pi with a flask web server to display the required data. 
 
-To do:
-1)Create a remote admit site using flask to display the database
+What we have left to do, most everything web server related. We should have this part of the project completed in the next couple class periods.
 
-	James was able to succesfully get the humidity and temperature sensor to work on the first day.  I unfortunately was not able to make it
-the class and missed the opportunity to see the differences between setting up the previous temperature sensor and the humidity sensor.  From there
-we worked on the SQL database using his pi, he wrote the python program and I provided input.  We then worked together to get samba to mount the 
-files onto my raspberry pi.  We are currently having issues with privelages were as I cannot copy or edit files from my pi.  James will continue to
-troubleshoot this from his end and I have taken the opportunity to learn how to use Flask which I am not too familiar with.  For the next three weeks
-all we must do is implement this information and post the database on the remote admin site.
-
-
+James and Richard have been diligently working together to complete the entire task and the work hasn't really ever been "divided" explicitly. We both come to a halt in the road, we both work quickly to overcome it together.
